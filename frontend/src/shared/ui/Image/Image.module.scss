@@ -1,0 +1,30 @@
+.image-container {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.item-page {
+    background-color: var(--color-white);
+    border-radius: 10px;
+    width: 70%;
+    height: 700px;
+    padding: 10px;
+}
+
+.cart-item {
+    background-color: var(--color-white);
+    height: 70px;
+    width: 70px;
+    object-fit: contain;
+}

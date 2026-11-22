@@ -1,0 +1,22 @@
+.page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.body-container { 
+    display: flex;
+    width: 50%;
+    flex: 1;
+    margin: 5px auto;
+}
+
+.orders-container {
+    width: 100%;
+}
+
+.orders {
+    padding: 15px;
+    background-color: white;
+    border-radius: 15px;
+}

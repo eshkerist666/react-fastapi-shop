@@ -1,0 +1,32 @@
+.icon-container{
+    height: 40px;
+    width: 40px;
+    padding: 0px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: 
+        border-color 0.2s ease,
+        background-color 0.2s ease,
+        box-shadow 0.2s ease,
+}
+
+.icon-container:hover{
+    border-color: var(--color-gray-200);
+    background-color: var(--color-gray-200);
+    box-shadow: var(--shadow-lg);
+}
+
+
+.img {
+    height: 90%;
+    width: 90%;
+    user-select: none;
+    -webkit-user-drag: none;
+    pointer-events: none;
+
+}

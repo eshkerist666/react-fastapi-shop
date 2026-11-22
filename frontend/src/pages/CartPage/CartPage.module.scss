@@ -1,0 +1,22 @@
+.page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.body-container { 
+    display: flex;
+    width: 60%;
+    flex: 1;
+    margin: 5px auto;
+}
+
+.cart-container {
+    width: 70%;
+    
+}
+
+.make-order-container {
+    margin-left: 20px;
+    flex: 1;
+}

@@ -1,0 +1,22 @@
+.page{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.body-container{ 
+    background-color: var(--color-white);
+    display: flex;
+    width: 70%;
+    flex: 1;
+    margin: 5px auto;
+    box-shadow: var(--shadow-lg);
+}
+
+.products-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1;
+    margin: 3px;
+}

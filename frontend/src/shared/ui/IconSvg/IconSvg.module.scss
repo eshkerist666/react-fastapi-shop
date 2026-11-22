@@ -1,0 +1,35 @@
+.delete {
+    height: 25px;
+    width: 25px;
+    color: var(--color-red-500);
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.confirm {
+    height: 25px;
+    width: 25px;
+    color: var(--color-green-500);
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.cart-counter {
+    height: 25px;
+    width: 25px;
+    color: var(--color-black);
+    margin-left: auto;
+    cursor: pointer
+}
+
+svg {
+    width: 100%;
+    height: 100%;
+}
+
+.page {
+    height: 25px;
+    width: 25px;
+    color: (--color-gray-600);
+    cursor: pointer;
+}
